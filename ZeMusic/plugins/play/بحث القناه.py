@@ -17,7 +17,7 @@ def remove_if_exists(path):
     if os.path.exists(path):
         os.remove(path)
 
-channel = "KHAYAL70"
+channel = "𝐂𝐀𝐃𝐘-♪"
 lnk = f"https://t.me/{config.STORE_LINK}"
 Nem = config.BOT_NAME + " ابحث"
 
@@ -86,7 +86,7 @@ async def song_downloader3(client, message: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="sᴀᴜᴅ ♪", url=lnk),
+                        InlineKeyboardButton(text="𝐂𝐀𝐃𝐘-♪", url=lnk),
                     ],
                 ]
             ),
