@@ -18,7 +18,7 @@ def remove_if_exists(path):
     if os.path.exists(path):
         os.remove(path)
 
-channel = "C44PP"
+channel = "YMMYn"
 lnk = f"https://t.me/{config.STORE_LINK}"
 Nem = config.BOT_NAME + " يوت"
 
