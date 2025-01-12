@@ -14,16 +14,16 @@ Muntazer = getenv("muntazer", "CHANNEL_ASHTRAK")
 CHANNEL_ASHTRAK = getenv("CHANNEL_ASHTRAK", "K55DD")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
-BOT_NAME = getenv("BOT_NAME","لارين")
-GPT_NAME = getenv("GPT_NAME","")
+BOT_TOKEN = getenv("BOT_TOKEN", "7555944516:AAFN0BE1256VuXWeH2pe2kRFCffKyEa0jLM")
+BOT_NAME = getenv("BOT_NAME","اصاله")
+GPT_NAME = getenv("GPT_NAME","اصوله")
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI","")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://asaala:fasdxoox@asaala.f5wk2.mongodb.net/?retryWrites=true&w=majority&appName=asaala")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
 
 # Chat id of a group for logging bot s activities
-LOGGER_ID = int(getenv("LOGGER_ID","-1001756578463"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1001993781277"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5901732027))
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 CHANNEL_NAME = getenv("CHANNEL_NAME", "السورس")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "K55DD")
 STORE_NAME = getenv("STORE_NAME", "المتجر")
-STORE_LINK = getenv("STORE_LINK", "https://t.me/YMMYN")
+STORE_LINK = getenv("STORE_LINK", "YMMYN")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/K55DD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
