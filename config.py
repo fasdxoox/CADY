@@ -14,16 +14,16 @@ Muntazer = getenv("muntazer", "CHANNEL_ASHTRAK")
 CHANNEL_ASHTRAK = getenv("CHANNEL_ASHTRAK", "K55DD")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7555944516:AAFN0BE1256VuXWeH2pe2kRFCffKyEa0jLM")
+BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_NAME = getenv("BOT_NAME","اصاله")
 GPT_NAME = getenv("GPT_NAME","اصوله")
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://asaala:fasdxoox@asaala.f5wk2.mongodb.net/?retryWrites=true&w=majority&appName=asaala")
+MONGO_DB_URI = getenv("MONGO_DB_URI","")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 480))
 
 # Chat id of a group for logging bot s activities
-LOGGER_ID = int(getenv("LOGGER_ID","-1001993781277"))
+LOGGER_ID = int(getenv("LOGGER_ID","-1001756578463"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", 5901732027))
@@ -47,7 +47,7 @@ GIT_TOKEN = getenv(
 CHANNEL_NAME = getenv("CHANNEL_NAME", "السورس")
 CHANNEL_LINK = getenv("CHANNEL_LINK", "K55DD")
 STORE_NAME = getenv("STORE_NAME", "المتجر")
-STORE_LINK = getenv("STORE_LINK", "YMMYN")
+STORE_LINK = getenv("STORE_LINK", "https://t.me/YMMYN")
 SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/K55DD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
@@ -71,7 +71,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 1073741824))
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
 AMK = APK + 5600000
-STRING1 = getenv("STRING_SESSION", "BAGa1A4Awydbr-QZqE6Jb2plqWzvusZBH_u50rEfB33sRLJQ7wz7rGIrW4gKWBTf8rLnMdpisJkamfHAJxP90yxmmTOt_itqzTDXDX0qU9I3nVKrw1uuBrky57Ibg63BEzyvfgwXVgJLXMaR8U0C7ENnE9yI4SDcB_qYWPS4EsKmFhygY3L-OFIdZVIVX6VoUlm42BKdBj4CVaEqdCs_GM1ZgHNeM38NEwYW7Ms3NKf86lLcEj65cYdmjwXTCtXnIJ5_TheSGMejPV8DdtBwsrXMfCxP8iwmFuiiX5P_f_d33BhbNQRmfsVEwPwWIGDMo0k3nYiZhf8q7SYY-HyV00cd7RW0YQAAAAGvcwIDAA")
+STRING1 = getenv("STRING_SESSION", None)
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
