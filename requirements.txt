@@ -15,6 +15,7 @@ pykeyboard
 pyrogram==2.0.106
 python-dotenv
 pyyaml
+pymongo
 requests
 speedtest-cli
 spotipy
